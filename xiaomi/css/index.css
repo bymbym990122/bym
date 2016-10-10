@@ -1,0 +1,332 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{width:100%;height:100%;font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;background:#fff}
+a,u{text-decoration:none;color:#ccc}
+b{font-weight:100 ;}
+i,em{font-style:normal}
+ol,ul,li{list-style:none}
+img{border:0;display:block;}
+.Con{width:1226px;margin: 0 auto;}
+
+/*header*/
+#header{
+    background: #333;
+    height: 40px;
+}
+#header .Con{
+    height: 40px;
+}
+.headerLeft{
+    height: 28px;
+    float: left;
+    width: 590px;
+    padding-top: 12px;
+}
+.headerLeft a{
+    float: left;
+    padding: 0 8px;
+    color: #b0b0b0;
+    font-size: 12px;
+    border-right: 1px solid #444;
+}
+.headerLeft a:hover{
+    color: #fff;
+}
+.headerRight{
+    float: left;
+    text-align: right;
+    width: 278px;
+    padding-left: 358px;
+}
+.headerRight a{
+    float: left;
+    padding: 0 6px;
+    margin-top: 12px;
+    color: #b0b0b0;
+    font-size: 11px;
+    border-right: 1px solid #444;
+}
+.headerRight a:hover{
+    color: #fff;
+}
+.headerRight .header-a1{
+    width: 120px;
+    height: 25px;
+    margin-top: 0;
+    margin-left: 22px;
+    padding: 15px 0 0 0px;
+    background: #424242 url(../img/car.jpg) no-repeat 17px 15px;
+}
+/*.headerRight .header-a1:hover{*/
+
+/*}*/
+.headerRight i{
+    float: left;
+    margin-left: 40px;
+}
+.headerRight span{
+    float: left;
+    margin-left: 0px;
+}
+
+/*nav*/
+#nav{
+    background: #fff;
+}
+#nav .Con{
+    height: 100px;
+}
+.navLeft{
+    float: left;
+    width: 242px;
+}
+.navLeft .nav-logo{
+    float: left;
+    margin-top: 22px;
+}
+.navLeft .nav-img{
+    float: left;
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+.navCenter{
+    float: left;
+    width: 688px;
+}
+.navCenter li{
+    float: left;
+}
+.navCenter li a{
+    float: left;
+    padding: 36px 10px;
+    color: #333;
+    font-size: 15px;
+}
+.navCenter li:hover a{
+    color: #ff6700;
+}
+.navRight{
+    float: left;
+    width: 296px;
+    padding-top: 25px;
+    position: relative;
+}
+.navRight p{
+    width: 296px;
+    height: 50px;
+}
+.navRight p:hover input[type="text"]{
+    border-color: #444444;
+}
+.navRight p:hover input[type="button"]{
+    border-color: #444444;
+}
+.navRight input[type=text]{
+    width: 243px;
+    height: 48px;
+    float: left;
+    border-right: 0;
+    outline: none;
+}
+.navRight input[type=button]{
+    width: 50px;
+    height: 50px;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    background: url("../img/btn1.jpg") no-repeat center;
+}
+.navRight input[type=button]:hover{
+    border: 0;
+    height: 50px;
+    background: #ff6700 url(../img/btn2.jpg) no-repeat center;
+}
+.navRight span{
+    width: 82px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    background: #eee;color: #757575;
+    font-size: 11px;
+    position: absolute;
+    right: 62px;
+    top: 41px;
+    cursor: pointer;
+}
+.navRight i{
+    width: 73px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    background: #eee;color: #757575;
+    font-size: 11px;
+    position: absolute;
+    left: 75px;
+    top: 41px;
+    cursor: pointer;
+}
+.navRight span:hover,i:hover{
+    background: #ff6700;
+    color: #fff;
+}
+.navRight .cc{
+    border: 0;
+    border: 1px solid #444444;
+}
+.navRight .gg{
+    border: 0;
+    border: 1px solid #e0e0e0;
+}
+/*banner*/
+#banner .Con{
+    height: 460px;
+    position: relative;
+}
+.bannerLeft{
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+    float: left;
+    background: #5e5a52;
+}
+.bannerLeft li{
+    width: 234px;
+    height: 42px;
+}
+.bannerLeft li>a{
+    display: block;
+    width: 204px;
+    height: 42px;
+    padding-left: 30px;
+    color: #fff;
+    line-height: 42px;
+    background: url("../img/banner111.png") no-repeat 203px 13px;
+}
+.bannerLeft li>a:hover{
+    background-color: #ff6700;
+}
+.bannerLeft li:hover .li1{
+    display: block;
+}
+.li1{
+    height: 460px;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    z-index: 99999;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 12px 5px #e7e7e7;
+    display: none;
+    background: #fff;
+}
+.li1>div{
+    float: left;
+    height: 460px;
+    width: 265px;
+}
+.li1 div a:hover{
+    color: #ff6700;
+}
+.li1>div>p:hover a:first-child{
+    color: #ff6700;
+}
+.li1>div>p{
+    width: 265px;
+    padding: 38px 0 38px 0;
+    background: url(../img/bg.jpg) no-repeat 26px 30px;
+    cursor: pointer;
+}
+.li1>div>p a:first-child{
+    float: left;
+    width: 123px;
+    padding-left: 72px;
+    cursor: pointer;
+    color: #333;
+    font-size: 12px;
+}
+.li1>div>p a:last-child{
+    float: left;
+    width: 58px;
+    height: 22px;
+    border: 1px solid #ff6700;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    color: #333;
+    font-size: 12px;
+}
+.li1>div>p a:last-child:hover{
+    background: #ff6700;
+    color: #fff;
+}
+.li1>div>a{
+    display: block;
+    width: 193px;
+    padding:30px 0 30px 72px;
+    cursor: pointer;
+    color: #333;
+    font-size: 12px;
+    background: url(../img/bg.jpg) no-repeat 26px 30px;
+}
+.bannerRight{
+    float: left;
+    width: 992px;
+    height: 460px;
+}
+.bannerRight img{
+    width: 992px;
+    height: 460px;
+}
+
+/*mi*/
+#mi .Con{
+    height: 170px;
+    margin-top: 14px;
+}
+.miLeft{
+    float: left;
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+}
+.miLeft li{
+    float: left;
+    width: 78px;
+    height: 85px;
+}
+.miLeft li a{
+    float: left;
+    width: 78px;
+    height: 30px;
+    background: url(../img/bg-p.jpg) no-repeat 32px center;
+    padding-top: 55px;
+    font-size: 11px;
+    color: #cfcdcb;
+    padding-left: 15px;
+}
+.miLeft li a:hover{
+    color: #fff;
+}
+.miRight{
+    float: left;
+    width: 992px;
+    height: 170px;
+}
+.miRight a{
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
